@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="UA">
+
+<header>
+    <title>Таблиця з малюнками</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width, initial-scale: 0,1">
+</header>
+
+<style>
+body
+{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(image/fon2.jpg)
+}
+p
+{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    align-items: right;
+    justify-content: center;
+}
+</style>
+
+<body>
+    <p align="center"> Таблиця 5х5 з різними атрибутами</p>
+    <table align="center"
+    border="13"
+    bordercolor="grey"
+    bordercolorlight="white"   
+    bordercolordark="purple"
+    bgColor="white"
+    width="1500"
+    cellpadding="15"
+    cellspacing="4"
+    >
+    <tr align="center" valign="middle">
+        <td colspan="2">1</td>
+        <td>2</td>
+        <td rowspan="2">3</td>
+        <td>4</td>
+    </tr>
+    <tr align="center" valign="middle">
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+    </tr>
+    <tr align="center" valign="middle">
+        <td rowspan="2">9</td>
+        <td>10</td>
+        <td colspan="3">11</td>
+    </tr>
+    <tr align="center" valign="middle">
+        <td rowspan="2" colspan="2"><img src="image/patrick.gif" height="300" width="300"></td>
+        <td rowspan="2">15</td>
+        <td>16</td>
+    </tr>
+    <tr align="center" valign="middle">
+        <td>17</td>
+        <td>18</td>
+        
+    </tr>
+    </table>
